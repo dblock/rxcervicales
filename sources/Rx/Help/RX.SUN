@@ -1,0 +1,586 @@
+üVQHLPEDFILE_4.00.017_007ü
+
+[PF]
+-1
+[EPF]
+[DICTIONARY]
+AF - Append Project FILES Section
+AL - Project ALIAS Section
+AM - Append Project MAP Section
+AN - Annotations
+BI - Browse info
+AV - Audio/Video Project Options
+BX - Build Expression Index
+BM - Bookmarks
+BM3 - New Bookmarks
+BN - Browse group names
+BR - Bitmap root
+BE - Build Expression
+BP - Build Tag Pointer Strings
+BT - Build Tags
+CH - Character set
+CI - Citation
+CM - Context map
+CN - Context number
+CNI - Context Number Index
+CP - Compress
+CR - Copyright
+CS - Context string
+CSI - Context String Index
+CV - Compiler version
+CW - Compiler Switch(s)
+DH - Defined help styles
+D2 - Defined help styles - ver 2.00
+D3 - Defined help styles - Ver 3.00
+FM - Font markers
+FT - Font table
+F2 - Font markers - ver 2.00
+HA - Help author
+HC - Help compiler dir
+HF - Help files
+HX - Help comments
+HT - Help topic section
+HTV - HTML options - HTML version
+HTM - HTML options - server version
+HTP - HTML options - export path
+HTI - HTML options - index filename
+HTH - HTML options - headers
+HTH2 - HTML options - headers, multiple style version
+HTW - HTML options - web browser
+HTO - HTML options - web browser options
+HTF - HTML options - font translations
+HTS - HTML options - default URL
+HTA - HTML options - alternate HTML
+HTD - HTML options - default HTML
+HTN - HTML options - nonscrolling region
+HTG - HTML options - image path on server
+HTK - HTML options - add keywords
+HTR - HTML options - footer text
+HTRX - HTML options - footer flag
+HTE - HTML options - header text
+HTEX - HTML options - header flag
+HTC - HTML options - background color
+HTCX - HTML options - background color flag
+HTIM - HTML options - background image
+HTH - HTML Form Header
+HTCT - HTML options - text color
+HCTX - HTML options - text color flag
+HTCL - HTML options - link color
+HTCLX - HTML options - link color flag
+HTCV - HTML options - visited link color
+HTCVX - HTML options - visited link color flag
+HTCA - HTML options - activated link color
+HTCAX - HTML options - activated link color flag
+HTHLP - HTML options - HTML Help flag
+HTHLPS - HTML options - HTML Help startup file
+HTHLPC - HTML options - HTML Help contents file
+HTHLPI - HTML options - HTML Help index file
+HTHLPN - HTML options - HTML Help navigator file
+HV - Help Magician Version
+IC - Icon FileName
+IN - Index
+JM - Jump markers
+J2 - Jump markers - ver 2.00
+J3 - Jump markers - ver 3.00
+KW - Keywords
+KW3 - Keywords
+KW4 - Keywords
+KWA - A Keywords
+LH - Last HTML Write
+LN - Language
+LT - Links Tags
+MD - Macro definitions
+MD4 - Macro definitions - ver 4.00
+MM - Multimedia markers
+MK - Multiple keywords
+MK4 - Multiple keywords
+MI - Macro info
+MT - Mid Topic Context Strings
+NS - WYSIWYG Nonscrolling Regions
+NT - NTags
+N2 - NTags - ver 2.00
+N3 - NTags - ver 3.00
+OK - Old key phrase
+OP - Optimize for  CDROM
+PF - Project Flag
+PG - Paragraph Tags
+PJ - Project macro
+PK - Primary Key
+PKI - Primary Key Index
+PM - Popup markers
+P2 - Popup markers - ver 2.00
+P3 - Popup markers - ver 3.00
+PR - Paragraph markers
+PT - Page title
+RC - RTF Compatibility
+SK - Style Hot Keys
+TI - Title
+TLI - Title Index
+TM - Topic macro
+TP - Template
+TX - Help Text
+UB - Use Build Expression
+UI - Unique File ID
+UR - URL Addresses
+WA - Warning
+WD - Window definitions
+WD3 - Window definitions
+WD4 - Window definitions
+WM - Write map file
+WP - Word Processor
+WS - Windows specification source
+VH - Version History
+[END OF DICTIONARY]
+
+[NS]
+-1
+[ENS]
+
+[BT]
+[EBT]
+
+[BE]
+
+
+
+
+
+
+
+
+
+
+[EBE]
+
+[UB]
+False
+[EUB]
+
+[BX]
+ 1
+[EBX]
+
+[HA]
+[EHA]
+
+[HX]
+[EHX]
+
+[AF]
+[EAF]
+
+[AM]
+[EAM]
+
+[BM3]
+0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;0;0;0;;
+[EBM3]
+
+[CV]
+4
+[ECV]
+
+[OPT]
+[CH]
+0
+[ECH]
+
+[CM]
+RX.H
+[ECM]
+
+[CP]
+0
+[ECP]
+
+[HV]
+400017
+[EHV]
+
+[IN3]
+0
+[EIN3]
+
+[LH]
+0
+[ELH]
+
+[LN]
+0
+[ELN]
+
+[OK]
+0
+[EOK]
+
+[OP]
+0
+[EOP]
+
+[PJ]
+0
+[EPJ]
+
+[RC]
+2
+[ERC]
+
+[UI]
+29090542
+[EUI]
+
+[HTV]
+0
+[EHTV]
+
+[HTM]
+0
+[EHTM]
+
+[HTP]
+T:\32BIT\PROG\HMPRO95\HTML
+[EHTP]
+
+[HTI]
+index.htm
+[EHTI]
+
+[HTH2]
+;;;;;;;;;;;;;;;;;
+[EHTH2]
+
+[HTW]
+[EHTW]
+
+[HTO]
+[EHTO]
+
+[HTF]
+0;8;10;12;14;20;26;36;
+[EHTF]
+
+[HTS]
+[EHTS]
+
+[HTA]
+[EHTA]
+
+[HTD]
+[EHTD]
+
+[HTN]
+-1
+[EHTN]
+
+[HTG]
+[EHTG]
+
+[HTK]
+0
+[EHTK]
+
+[HTR]
+[EHTR]
+
+[HTRX]
+0
+[EHTRX]
+
+[HTE]
+[EHTE]
+
+[HTEX]
+0
+[EHTEX]
+
+[HTCX]
+0
+[EHTCX]
+
+[HTC]
+12632256
+[EHTC]
+
+[HTIM]
+[EHTIM]
+
+[HTCT]
+0
+[EHTCT]
+
+[HTCTX]
+0
+[EHTCTX]
+
+[HTCL]
+16711680
+[EHTCL]
+
+[HTCLX]
+0
+[EHTCLX]
+
+[HTCV]
+8388736
+[EHTCV]
+
+[HTCVX]
+0
+[EHTCVX]
+
+[HTCA]
+255
+[EHTCA]
+
+[HTCAX]
+0
+[EHTCAX]
+
+[HTFP]
+HM
+[EHTFP]
+
+[HTHLP]
+0
+[EHTHLP]
+
+[HTHLPS]
+start_fr.htm
+[EHTHLPS]
+
+[HTHLPC]
+toc.htm
+[EHTHLPC]
+
+[HTHLPI]
+idx.htm
+[EHTHLPI]
+
+[HTHLPN]
+nav.htm
+[EHTHLPN]
+
+[WA]
+3
+[EWA]
+
+[WM]
+0
+[EWM]
+
+[WS]
+-1
+[EWS]
+
+[BR]
+[EBR]
+
+[AV]
+0 0 0 0
+[EAV]
+
+[HF]
+[EHF]
+
+[EOPT]
+
+[VH]
+4.00.017-F007;
+[EVH]
+
+[D3]
+0;0;Normal;0;0;0;0;0;MS Sans Serif;10;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+1;0;Emphasized;0;-1;0;0;0;MS Sans Serif;10;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+2;0;Topic Heading;0;0;0;0;0;MS Sans Serif;14;80;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+3;0;Paragraph Title;0;-1;0;0;0;MS Sans Serif;12;80;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;8;50;;
+4;0;Bullet 1;0;0;0;0;0;MS Sans Serif;10;0;0;0;0;0;0;0;0;0;0;19;-19;Symbol;183;0;10;0;50;;
+5;0;Hanging Indent 1;0;0;0;0;0;MS Sans Serif;10;0;0;0;0;0;0;0;0;0;0;38;-38;;0;0;0;0;50;;
+6;0;Topic Title;0;0;0;0;0;MS Sans Serif;14;80;1;50;50;0;0;0;0;0;0;0;0;;0;0;0;0;50;;
+7;0;Horizontal Rule;0;0;0;0;0;Times New Roman;8;FF00FF;0;0;0;0;5;1;0;0;0;0;0;;0;0;0;0;50;;
+[ED3]
+
+[BN]
+[EBN]
+
+[MD4]
+[EMD]
+
+[MI]
+[EMI]
+
+[WD4]
+main="DEFAULT.HLX"(100,100,823,823),0,(255,255,255),(255,255,255),0,7,0,,1
+[EWD]
+
+[SK]
+000001002003004005000000000000000000000000000000000000000000
+[ESK]
+
+[HT]
+[PK]
+290905420001
+[EPK]
+[PT]
+About Rx
+[EPT]
+[MC]
+M
+[EMC]
+
+[J3]
+01410002000000001
+[EJ3]
+
+[MT]
+[EMT]
+
+[PG]
+001006
+[EPG]
+
+[BI]
+
+[EBI]
+[CN]
+ 2 
+[ECN]
+[CS]
+about
+[ECS]
+[TX]
+{\fonttbl
+{\f0\fswiss\fcharset0 SYSTEM;}
+{\f1\fswiss\fcharset0 MS SANS SERIF;}
+}
+\paperw11355 \margr0\margl0 \plain \fs20 \ATXts720\qc\sb120\sa120\ATXpt6\sl240 \f1 \fs28 \cf4 Rx - About
+
+{\fonttbl
+{\f0\fswiss\fcharset0 SYSTEM;}
+{\f1\fswiss\fcharset0 MS SANS SERIF;}
+}
+\paperw11355 \margr0\margl0 \plain \fs20 \ATXts720\sl240 \f1  \par
+Rx-Angletracing, also known as Rx-Cervicales is © Daniel Doubrovkine, University of Geneva, 1999 (All 
+Rights Reserved). Rx is developped and published as a University of Geneva student graduation work and can thus be distributed freely. You may read a full public license information and agreement \ATXul1026 \cf2 \ATXht1 here\ATXul0 \cf0 \ATXht0 .\par
+
+\par
+Rx has been developped as a license work at the University of Geneva under the direction of Prof. Thierry Pun and with the collaboration of Dr. Paul Cohen of the Geneva University Hospital.\par
+\par
+Rx aims the automatization (informatization) of t
+he measurements of intervertebral angles. Measured angles reflect the displacement of a vertebral element from it's neighbouring one between the flexion and the extension positions of the cervical column. By superposition it is possible to compute such a
+ngles and to detect anomalies by comparing the values with those of healthy individuals. Such a comparison can show a diminished mobility of one or several vertebral levels.\par
+\par
+If you like this software, feel free to send a postcard or an email. 
+For more information, questions and support for Rx, please contact:\par
+\par
+\qc \b Daniel Doubrovkine\par
+\b0 University of Geneva\par
+\fs16 25, rue Jean-Violette\par
+1205 Geneva, Switzerland\par
+\fs20 email: \b doubrov5@cuimail.unige.ch\par
+\b0 
+http://cuiwww.unige.ch/~doubrov5\par
+\ql \par
+\qc \fs16 Daniel Doubrovkine - doubrov5@cuimail.unige.ch - http://cuiwww.unige.ch\par
+© University of Geneva - 1999 All Rights Reserved
+
+[ETX]
+[EHT]
+
+[PK]
+290905420002
+[EPK]
+[PT]
+Public License
+[EPT]
+[MC]
+M
+[EMC]
+
+[MT]
+[EMT]
+
+[PG]
+001006
+[EPG]
+
+[BI]
+
+[EBI]
+[CN]
+ 4 
+[ECN]
+[CS]
+public_license
+[ECS]
+[TX]
+{\fonttbl
+{\f0\fswiss\fcharset0 SYSTEM;}
+{\f1\fswiss\fcharset0 MS SANS SERIF;}
+}
+\paperw16635 \margr0\margl0 \plain \fs20 \ATXts720\qc\sb120\sa120\ATXpt6\sl240 \f1 \fs28 \cf4 Rx - Public License
+
+{\fonttbl
+{\f0\fswiss\fcharset0 SYSTEM;}
+{\f1\fswiss\fcharset0 ARIAL;}
+{\f2\fswiss\fcharset0 MS SANS SERIF;}
+}
+\paperw16635 \margr0\margl0 \plain \fs20 \ATXts720\sl240 \f0 \par
+\ATXts240\sb105\sa105\sl0 \f1 \ATXul1024 Article 1\ATXul0 . \b Public Do
+main\par
+\b0 This version of Rx is entirely \b public domain\b0 . International laws on intellectual property remain in vigour. This applies to the current version only and does not intend that there will be no commercial version of Rx with more options
+ and features.\par
+\ATXul1024 Article 2\ATXul0 . \b Warranty\par
+\b0 Users of Rx must accept this disclaimer of warranty: "Rx is supplied as is. The author and the University of Geneva disclaims all warranties, expressed or implied, including, without 
+limitation, the warranties of merchantability and of fitness for any purpose. The author assumes no liability for damages, direct or consequential, which may result from the use, misuse or abuse of Rx or any of the software derived from it by the author 
+or any third party." \par
+\ATXul1024 Article 3\ATXul0 . \b Redistribution\par
+\b0 This software may be freely distributed, but as long as the purpose of the software does not change, no remuneration may be legally received by the person or persons dist
+ributing said software without the total unforced conscent of the author. Any commercial use or sale of the software must be first agreed with the author, including the reuse of the Rx concept. Parts of source code are though fully public domain and may 
+be reused for non similar or similar non-commercial projects.\par
+\ATXul1024 Article 4\ATXul0 . \b Non covered issues\par
+\b0 Any non covered issue above should be discussed with the author of the software.\par
+\ATXul1024 Article 5\ATXul0 . \b License
+ abuse\par
+\b0 Any kind of license abuse, including minor frauds and non-significant issues shall be prosecuted under the Swiss criminal law at maximum extent possible.\par
+\ATXts720\sb0\sa0\sl240 \f2 \fs16 \par
+\qc Daniel Doubrovkine - doubrov5@cuima
+il.unige.ch - http://cuiwww.unige.ch\par
+© University of Geneva - 1999 All Rights Reserved\par
+\ql 
+
+[ETX]
+[EHT]
+
+[FT]
+MS SANS SERIF,fswiss,0
+SYSTEM,fswiss,0
+ARIAL,fswiss,0
+[EFT]
+
+[EOF]
+6030,8165,
+6003,8138,
+6176,8283,
+6158,8265,
+6190,8306,
+10825
+6099,8206,
+6143,8250,
+[NDX]
+[TLI]00010765
+[PKI]00010777
+[CSI]00010789
+[CNI]00010801
+[TXI]00010813
+[BTI]00010825
+[MTI]00010832
+[BEI]00003575
+[WDI]00005819
+[PSI]00005037
+[OPT]00003818
+[MAC]00005788
+[BII]00010844
+[BNI]00005779
+[ENDX]
+00010856
+

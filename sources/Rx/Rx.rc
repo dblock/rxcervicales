@@ -1,0 +1,819 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INIT DIALOG DISCARDABLE  0, 0, 261, 129
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Copyright © 1999 Daniel Doubrovkine (University of Geneva)",
+                    IDC_STATIC,7,114,247,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,20
+    LTEXT           "Daniel Doubrovkine - © University of Geneva 1999\ndoubrov5@cuimail.unige.ch\nhttp://cuiwww.unige.ch/~doubrov5",
+                    IDC_STATIC,35,7,219,28
+    GROUPBOX        " System Information ",IDC_STATIC,7,38,247,68
+    LTEXT           "(Unable to retreive system information)",IDC_SYSINFO,14,
+                    49,232,49
+    LTEXT           "Initializing Rx, please be patient ... ",IDC_RXVERSION,
+                    7,106,247,8
+END
+
+IDD_METRIC DIALOG DISCARDABLE  0, 0, 213, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Metric Measures"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,161,44,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,109,44,50,14
+    LTEXT           "What is the length of this vector? (mm)",IDC_QMETRIC,55,
+                    7,151,8
+    EDITTEXT        IDC_METRIC_INPUT,54,18,155,14,ES_AUTOHSCROLL
+    CONTROL         155,IDC_STATIC,"Static",SS_BITMAP,2,7,50,50
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_INIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_METRIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 259, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Rx"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "Rx Version 1.0",IDC_RXVERSION,31,7,221,8,SS_NOPREFIX
+    LTEXT           "Daniel Doubrovkine - © University of Geneva 1999\ndoubrov5@cuimail.unige.ch",
+                    IDC_STATIC,32,15,220,16
+    DEFPUSHBUTTON   "OK",IDOK,202,109,50,14,WS_GROUP
+    GROUPBOX        " System Information ",IDC_STATIC,7,43,245,62
+    LTEXT           "(Unable to retreive system information)",IDC_SYSINFO,13,
+                    53,233,49
+    LTEXT           "http://cuiwww.unige.ch/~doubrov5",IDC_STATIC,13,108,114,
+                    8
+END
+
+IDR_MAINFRAME DIALOGEX 0, 0, 339, 14
+STYLE DS_MODALFRAME | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+MENU IDR_RXTYPE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_ATRACE DIALOG DISCARDABLE  0, 0, 193, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Angle Tracer Report"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,141,166,50,14
+    CONTROL         "Tree1",IDC_TRACE_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,1,1,191,162
+    PUSHBUTTON      "&Print",IDC_ATPRINT,88,166,50,14,WS_DISABLED
+    PUSHBUTTON      "&Copy",IDC_ATR_COPY,35,166,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_ATRACE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 192
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 180
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Rx.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Application 2000.ico"
+IDR_RXTYPE              ICON    DISCARDABLE     "res\\RxDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_DTOOLS              BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_DTOOL_NODE
+    BUTTON      ID_DTOOL_ROTATE
+    SEPARATOR
+    BUTTON      ID_DTOOL_LINE
+    BUTTON      ID_DTOOL_VECTOR
+    BUTTON      ID_DTOOL_SYM
+    BUTTON      ID_DTOOL_ALPHA
+    SEPARATOR
+    BUTTON      ID_TOOLS_DEFINEMETRIC
+    BUTTON      ID_DTOOL_DISTANCE
+    BUTTON      ID_DTOOL_MDIST
+    SEPARATOR
+    BUTTON      ID_DTOOL_TEXT
+    BUTTON      ID_DTOOL_FONT
+    SEPARATOR
+    BUTTON      ID_DTOOL_COLORS
+    BUTTON      ID_IMAGES_INFORMATION
+    SEPARATOR
+    BUTTON      ID_OPTION_SHOWANGLES
+    BUTTON      ID_OPTION_SHOWROT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_DTOOLS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_DTOOL_NODE
+    SEPARATOR
+    BUTTON      ID_DTOOL_LINE
+    BUTTON      ID_DTOOL_VECTOR
+    BUTTON      ID_DTOOL_SYM
+    SEPARATOR
+    BUTTON      ID_DTOOL_DISTANCE
+    BUTTON      ID_DTOOL_MDIST
+    SEPARATOR
+    BUTTON      ID_DTOOL_TEXT
+    BUTTON      ID_DTOOL_FONT
+    SEPARATOR
+    BUTTON      ID_DTOOL_COLORS
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Rx...",                ID_APP_ABOUT
+    END
+END
+
+IDR_RXTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open ...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As ...",                ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Import Picture ...\tCtrl+I", ID_EDIT_PASTEFROM
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup ...",            ID_FILE_PRINT_SETUP
+        MENUITEM "P&age Setup ...",             ID_FILE_PAGE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Clear &All",                  ID_EDIT_CLEAR_ALL
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom &In",                    ID_VIEW_ZOOMIN
+        MENUITEM "Zoom &Out",                   ID_VIEW_ZOOMOUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Show Angles",                ID_OPTION_SHOWANGLES
+        MENUITEM "R&otate with Contents",       ID_OPTION_SHOWROT
+        MENUITEM SEPARATOR
+        MENUITEM "&Information ...",            ID_IMAGES_INFORMATION
+    END
+    POPUP "&Images"
+    BEGIN
+        POPUP "&Transform"
+        BEGIN
+            MENUITEM "&Duotone",                    ID_IMAGES_MODE_MONOCHROME
+
+            MENUITEM "&Floyd Steinberg",            ID_IMAGES_MODE_FLOYDSTEINBERG
+
+            MENUITEM SEPARATOR
+            MENUITEM "Linear &Grayscale",           ID_IMAGES_MODE_GRAYSCALE
+            MENUITEM "&Logarithmic Grayscale",      ID_IMAGES_MODE_LOGARITHMICGRAYSCALE
+
+        END
+        POPUP "Adjust && &Convolve"
+        BEGIN
+            MENUITEM "&Invert",                     ID_IMAGES_TRANSFORM_INVERT
+
+            MENUITEM "&Equalize",                   ID_IMAGES_TRANSFORM_EQUALIZE
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Blur",                       ID_IMAGES_TRANSFORM_BLUR
+            MENUITEM "Blur &More",                  ID_IMAGES_TRANSFORM_BLURMORE
+
+            MENUITEM "&Sharpen Edges",              ID_IMAGES_TRANSFORM_SHARPEN
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Median Filter",              ID_IMAGES_TRANSFORM_MEDIANFILTER
+
+            MENUITEM "&Thin",                       ID_IMAGES_ADJUSTCONVOLVE_THIN
+
+            MENUITEM SEPARATOR
+            MENUITEM "So&bel Edge Detect",          ID_IMAGES_TRANSFORM_SOBELEDGEDETECT
+
+            MENUITEM "&Roberts Edge Detect",        ID_IMAGES_ADJUSTCONVOLVE_ROBERTSEDGEDETECT
+
+            MENUITEM "&Laplacian Edge Detect",      ID_IMAGES_ADJUSTCONVOLVE_LAPLACIANEDGEDETECT
+
+        END
+        POPUP "&Size && Rotate"
+        BEGIN
+            MENUITEM "Flip &Horizontal",            ID_IMAGES_SIZEROTATE_FLIPHORIZONTAL
+
+            MENUITEM "Flip &Vertical",              ID_IMAGES_SIZEROTATE_FLIPVERTICAL
+
+            MENUITEM "",                            1
+            MENUITEM "&Original Size",              ID_EDIT_OSIZE
+            MENUITEM "&Zero Angle",                 ID_EDIT_OZERO
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Copy T&o ...",                ID_EDIT_COPYTO
+        MENUITEM "Paste &From ...",             ID_EDIT_PASTEFROM
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Node Tool",                  ID_DTOOL_NODE
+        MENUITEM "&Rotate Tool",                ID_DTOOL_ROTATE
+        MENUITEM SEPARATOR
+        MENUITEM "&Line Tool",                  ID_DTOOL_LINE
+        MENUITEM "&Vector Tool",                ID_DTOOL_VECTOR
+        MENUITEM "&Symmetric Line Tool",        ID_DTOOL_SYM
+        MENUITEM "Vector &Angle",               ID_DTOOL_ALPHA
+        MENUITEM SEPARATOR
+        MENUITEM "&Distance Tool",              ID_DTOOL_DISTANCE
+        MENUITEM "V&ector Distance Tool",       ID_DTOOL_MDIST
+        MENUITEM SEPARATOR
+        MENUITEM "&Annotation Tool",            ID_DTOOL_TEXT
+        MENUITEM SEPARATOR
+        MENUITEM "&Font Properties",            ID_DTOOL_FONT
+        MENUITEM "&Color Properties",           ID_DTOOL_COLORS
+        MENUITEM SEPARATOR
+        MENUITEM "&Define Metric ...\tCtrl+T",  ID_TOOLS_DEFINEMETRIC
+    END
+    POPUP "&Medic"
+    BEGIN
+        POPUP "&Cervicales Angle Tracer"
+        BEGIN
+            MENUITEM "Define &Flexion",             ID_TOOLS_ANGLETRACER_DEFINEFLEXION
+
+            MENUITEM "Define &Extension",           ID_TOOLS_ANGLETRACER_DEFINEEXTENSION
+
+            MENUITEM "&Trace Front (Defned F&&E)",  ID_TOOLS_ANGLETRACER_TRACEFRONT
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Cervicales Front (Current Image)", 
+                                                    ID_IMAGES_ADJUSTCONVOLVE_CONTOUR
+
+            MENUITEM "Define F&lexion Vector",      ID_MEDIC_CERVICALESANGLETRACER_DEFINEFLEXIONVECTOR
+
+            MENUITEM "Define E&xtension Vector",    ID_MEDIC_CERVICALESANGLETRACER_DEFINEEXTENSIONVECTOR
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Compare Angles",             ID_TOOLS_ANGLETRACER_COMPAREANGLES
+
+            MENUITEM "&Assisted Tracer",            ID_MEDIC_CERVICALESANGLETRACER_ASSISTEDTRACER
+
+        END
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About Rx ...",               ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_EDIT_PASTEFROM,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_TOOLS_DEFINEMETRIC,  VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Rx MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Rx\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Rx.EXE\0"
+            VALUE "ProductName", "Rx Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Rx Cervicales"
+    IDR_RXTYPE              "\nRx\nRx\nRx Files (*.rx)\n.rx\nRx.Document\nRx Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Rx"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DTOOL_LINE           "Draw a streight segment (use Shift for additional options)\nStreight segment"
+    ID_DTOOL_VECTOR         "Draw a joined series of segments (use Shift for additional options, right mouse button or Escape to close figure)\nJoint segments"
+    ID_DTOOL_SYM            "Draw a symmetric link of three nodes and two segments\nSymmetric node"
+    ID_DTOOL_NODE           "Select, move, resize and rotate (+Ctrl) vectors and images (use Shift for additional options)\nNode and segment tool"
+    ID_DTOOL_TEXT           "Add textual annotations to the document\nText annotation tool"
+    ID_DTOOL_COLORS         "Select color newly created and selected objects\nColor properties"
+    ID_PROP_COLORS          "Select color for new vectors and for the currently selected vector or annotation\nColor selection tool"
+    ID_EDIT_COPYTO          "Copy the selection and put it into a bitmap file\nCopy To ..."
+    ID_EDIT_PASTEFROM       "Insert Bitmap file contents\nPaste From ..."
+    ID_EDIT_OSIZE           "Restore original image size."
+    ID_EDIT_OZERO           "Restore original image rotation angle."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DTOOL_FONT           "Select a font for annotations\nAnnotations font properties"
+    ID_DTOOL_DISTANCE       "Distance between two points\nDistance tool"
+    ID_DTOOL_MDIST          "Measure a distance of joint segments\nJoint distance tool"
+    ID_TOOLS_ANGLETRACER_DEFINEFLEXION "Define flexion scan"
+    ID_TOOLS_ANGLETRACER_DEFINEEXTENSION "Define extension scan"
+    ID_TOOLS_ANGLETRACER_TRACEFRONT 
+                            "Trace cervicales front wall (Median Filter + Roberts Edge Detect)\nTrace front"
+    ID_TOOLS_ANGLETRACER_COMPAREANGLES "Compare cervicales front wall angles"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DTOOL_ROTATE         "Freely rotate the selected bitmap or vector\nRotation tool"
+    ID_DTOOL_ALPHA          "Draw a three points vector (measure angle)\nVector angle tool"
+    ID_OPTION_SHOWANGLES    "Toggle show/hide angle values and arcs\nShow/hide angles"
+    ID_OPTION_SHOWROT       "Toggle rotate with contents\nRotate with contents"
+    ID_IMAGES_MODE          "Image color transformations\nColor transformations"
+    ID_IMAGES_MODE_MONOCHROME "Convert to B/W\nConvert to B/W"
+    ID_IMAGES_MODE_GRAYSCALE 
+                            "Convert to gray scale (linear)\nGray scale (linear)"
+    ID_IMAGES_MODE_LOGARITHMICGRAYSCALE 
+                            "Convert to gray scale (log)\nGray scale (log)"
+    ID_IMAGES_MODE_FLOYDSTEINBERG 
+                            "Convert to B/W using Floyd-Steinberg algorithm\nConvert to B/W using Floyd-Steinberg algorithm"
+    ID_IMAGES_INFORMATION   "Show image histogram and information\nImage information"
+    ID_IMAGES_TRANSFORM_EQUALIZE "Equalize histogram\nEqualize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IMAGES_TRANSFORM_INVERT "Invert bitmap\nInvert"
+    ID_IMAGES_TRANSFORM_BLUR "Low pass spacial filter (LP3)\nBlur"
+    ID_IMAGES_TRANSFORM_BLURMORE "Low pass spacial filter (1/9)\nBlur more"
+    ID_IMAGES_TRANSFORM_SHARPEN "High pass spacial filter\nSharpen"
+    ID_IMAGES_TRANSFORM_SOBELEDGEDETECT "Sobel edge detect\nSobel edge detect"
+    ID_IMAGES_TRANSFORM_MEDIANFILTER "Median noise filter\nMedian"
+    ID_IMAGES_ADJUSTCONVOLVE_THIN "Thin\nThin"
+    ID_IMAGES_SIZEROTATE    "Size and rotate\nSize and rotate"
+    ID_IMAGES_SIZEROTATE_FLIPHORIZONTAL "Horizontal mirror\nHorizontal mirror"
+    ID_IMAGES_SIZEROTATE_FLIPVERTICAL "Vertical mirror\nVertical mirror"
+    ID_DTOOL_ERASE          "Erase portions of bitmap\nErase tool"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOOLS_DEFINEMETRIC   "Define metric scale for vector objects and distances\nDefine metric"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Switzerland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRS)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_SWISS
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROGRESS DIALOG DISCARDABLE  0, 0, 191, 33
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESSBAR,"msctls_progress32",
+                    WS_BORDER,35,17,149,9
+    LTEXT           "Working, please wait ...",IDC_PROGRESS,35,7,149,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 26
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_METRIC       BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+#endif    // French (Switzerland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Rx.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,56 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_DTOOL_LINE                          0x18003
+HID_DTOOL_VECTOR                        0x18004
+HID_DTOOL_SYM                           0x18005
+HID_DTOOL_NODE                          0x18006
+HID_DTOOL_TEXT                          0x18007
+HID_DTOOL_COLORS                        0x18008
+HID_PROP_COLORS                         0x1800A
+HID_EDIT_COPYTO                         0x1800C
+HID_EDIT_PASTEFROM                      0x1800D
+HID_EDIT_OSIZE                          0x1800E
+HID_EDIT_OZERO                          0x1800F
+HID_VIEW_ZOOMIN                         0x18010
+HID_VIEW_ZOOMOUT                        0x18011
+HID_DTOOL_FONT                          0x18012
+HID_DTOOL_DISTANCE                      0x18014
+HID_DTOOL_MDIST                         0x18015
+HID_TOOLS_ANGLETRACER_DEFINEFLEXION     0x18016
+HID_TOOLS_ANGLETRACER_DEFINEEXTENSION   0x18017
+HID_TOOLS_ANGLETRACER_TRACEFRONT        0x18018
+HID_TOOLS_ANGLETRACER_COMPAREANGLES     0x18019
+HID_DTOOL_ROTATE                        0x18025
+HID_DTOOL_ALPHA                         0x18026
+HID_OPTION_SHOWANGLES                   0x18027
+HID_OPTION_SHOWROT                      0x18028
+HID_IMAGES_MODE                         0x18029
+HID_IMAGES_MODE_MONOCHROME              0x1802A
+HID_IMAGES_MODE_GRAYSCALE               0x1802B
+HID_IMAGES_MODE_LOGARITHMICGRAYSCALE    0x1802C
+HID_IMAGES_MODE_FLOYDSTEINBERG          0x1802D
+HID_IMAGES_INFORMATION                  0x1802E
+HID_IMAGES_TRANSFORM_EQUALIZE           0x1802F
+HID_IMAGES_TRANSFORM_INVERT             0x18030
+HID_IMAGES_TRANSFORM_BLUR               0x18031
+HID_IMAGES_TRANSFORM_BLURMORE           0x18032
+HID_IMAGES_TRANSFORM_SHARPEN            0x18033
+HID_IMAGES_TRANSFORM_SOBELEDGEDETECT    0x18034
+HID_IMAGES_TRANSFORM_MEDIANFILTER       0x18035
+HID_IMAGES_ADJUSTCONVOLVE_THIN          0x18036
+HID_IMAGES_ADJUSTCONVOLVE_ROBERTSEDGEDETECT	0x18037
+HID_IMAGES_ADJUSTCONVOLVE_LAPLACIANEDGEDETECT	0x18038
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_RXTYPE                             0x20081
+HIDR_DTOOLS                             0x20082
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_INIT                               0x20086
+HIDD_HISTOGRAM                          0x2802E
+ 
+// Frame Controls (IDW_*) 

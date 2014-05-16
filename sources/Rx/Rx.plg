@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Rx - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Rx.res" /d "NDEBUG" "D:\Works\Programming\Rx\Rx.rc"" 
+Creating temporary file "D:\TEMP\RSP11.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Rx.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Works\Programming\Rx\CDib.cpp"
+"D:\Works\Programming\Rx\DibHistogram.cpp"
+"D:\Works\Programming\Rx\DibInformation.cpp"
+"D:\Works\Programming\Rx\DibTracker.cpp"
+"D:\Works\Programming\Rx\DibTrackerManager.cpp"
+"D:\Works\Programming\Rx\AVector.cpp"
+"D:\Works\Programming\Rx\AVectorManager.cpp"
+"D:\Works\Programming\Rx\MetricDialog.cpp"
+"D:\Works\Programming\Rx\Annotation.cpp"
+"D:\Works\Programming\Rx\AnnotationManager.cpp"
+"D:\Works\Programming\Rx\ObjectManager.cpp"
+"D:\Works\Programming\Rx\ToolBase.cpp"
+"D:\Works\Programming\Rx\VectorObject.cpp"
+"D:\Works\Programming\Rx\BufferView.cpp"
+"D:\Works\Programming\Rx\ChildFrm.cpp"
+"D:\Works\Programming\Rx\MainFrm.cpp"
+"D:\Works\Programming\Rx\Rx.cpp"
+"D:\Works\Programming\Rx\RxDoc.cpp"
+"D:\Works\Programming\Rx\RxView.cpp"
+"D:\Works\Programming\Rx\ToolCervicales.cpp"
+"D:\Works\Programming\Rx\ATraceReport.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP11.tmp" 
+Creating temporary file "D:\TEMP\RSP12.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Rx.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Works\Programming\Rx\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP12.tmp" 
+Creating temporary file "D:\TEMP\RSP13.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Rx.pdb" /machine:I386 /out:"Release/Rx.exe" 
+.\Release\CDib.obj
+.\Release\DibHistogram.obj
+.\Release\DibInformation.obj
+.\Release\DibTracker.obj
+.\Release\DibTrackerManager.obj
+.\Release\AVector.obj
+.\Release\AVectorManager.obj
+.\Release\MetricDialog.obj
+.\Release\Annotation.obj
+.\Release\AnnotationManager.obj
+.\Release\ObjectManager.obj
+.\Release\ToolBase.obj
+.\Release\VectorObject.obj
+.\Release\BufferView.obj
+.\Release\ChildFrm.obj
+.\Release\MainFrm.obj
+.\Release\Rx.obj
+.\Release\RxDoc.obj
+.\Release\RxView.obj
+.\Release\StdAfx.obj
+.\Release\ToolCervicales.obj
+.\Release\ATraceReport.obj
+.\Release\Rx.res
+]
+Creating command line "link.exe @D:\TEMP\RSP13.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDib.cpp
+DibHistogram.cpp
+DibInformation.cpp
+DibTracker.cpp
+DibTrackerManager.cpp
+AVector.cpp
+AVectorManager.cpp
+MetricDialog.cpp
+Annotation.cpp
+AnnotationManager.cpp
+ObjectManager.cpp
+ToolBase.cpp
+VectorObject.cpp
+BufferView.cpp
+ChildFrm.cpp
+MainFrm.cpp
+Rx.cpp
+RxDoc.cpp
+RxView.cpp
+ToolCervicales.cpp
+Generating Code...
+Compiling...
+ATraceReport.cpp
+Generating Code...
+Linking...
+Creating temporary file "D:\TEMP\RSP15.bat" with contents
+[
+@echo off
+copy help\Rx.hlp Release\Rx.hlp
+copy help\Rx.cnt Release\Rx.cnt
+]
+Creating command line "D:\TEMP\RSP15.bat"
+
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Rx.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,9 @@
+body  {background-color: #FFFFFF; margin-top:1px; margin-bottom:1px; margin-left:1px; margin-right:1px;}
+H1 { font-family: Arial, verdana, helvetica, sans-serif; font-size: 16pt; }
+H2 { font-family: Arial, verdana, helvetica, sans-serif; font-size: 14pt; }
+H3 { font-family: Arial, verdana, helvetica, sans-serif; font-size: 12pt; }
+DIV, P, A, TD, TH { font-family: Arial, verdana, helvetica, sans-serif; }
+DIV, P, TD, TH { font-size: 11pt; }
+A { text-decoration: none; }
+
+
